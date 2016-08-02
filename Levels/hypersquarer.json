@@ -1,0 +1,56 @@
+{
+	// Level information
+	"id": "hypersquarer",
+	"name": "Hyper Squarer",
+	"description": "Hardestest",
+	"author": "Jerry Ding",	
+	"menu_priority": 40,
+	"selectable": true,
+	
+	// Style
+	"style_id": "inverteddark",
+	
+	// Music
+	"music_id": "otis",
+	
+	// Lua
+	"lua_file": "defaultLevels/hypersquarer.lua",
+	
+	// Difficulty multipliers
+	"difficulty_multipliers": [1],
+	
+	// Basic values
+	"speed_multiplier": 2.03,
+	"speed_increment": 0.02,
+	"rotation_speed": 0.27,
+	"rotation_increment": 0.005,
+	"delay_multiplier": 1.00,
+	"delay_increment": 0.00,
+	"fast_spin": 0,
+	"sides": 4,
+	"sides_min": 4,
+	"sides_max": 4,
+	"increment_time": 99999,
+	"rotation_speed_max": 0.36,
+	"pulse_min": 70,
+	"pulse_max": 70,
+	"pulse_speed": 1.03,
+	"pulse_speed_r": 0.57,
+	"pulse_delay_max": 0.7,
+	"pulse_delay_max": 9.1,
+	
+	"beatpulse_max": 17,
+	"beatpulse_delay_max": 23.8,
+	
+	
+	//Events
+	"events":
+	[
+		{ "time": 10, 	"type": "play_sound", 	"id": "SuperSquare_line.ogg" },
+		{ "time": 20, 	"type": "play_sound", 	"id": "SuperSquare_triangle.ogg" },
+		{ "time": 30, 	"type": "play_sound", 	"id": "SuperSquare_square.ogg" },
+		{ "time": 45, 	"type": "play_sound", 	"id": "SuperSquare_pentagon.ogg" },
+		{ "time": 60, 	"type": "play_sound", 	"id": "SuperSquare_hexagon.ogg" },
+		{ "time": 60, 	"type": "style_set", 	"id": "hyperinverteddark" }
+	]
+}

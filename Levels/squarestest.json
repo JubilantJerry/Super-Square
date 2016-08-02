@@ -1,0 +1,43 @@
+{
+	// Level information
+	"id": "squarestest",
+	"name": "Hyper Hyper Squarest",
+	"description": "Read Only - Get 60 secs on Hyper Squarest to enter.",
+	"author": "Jerry Ding",	
+	"menu_priority": 60,
+	"selectable": true,
+	
+	// Style
+	"style_id": "blackandwhite",
+	
+	// Music
+	"music_id": "finallevel",
+	
+	// Lua
+	"lua_file": "defaultLevels/squarestest.lua",
+	
+	// Difficulty multipliers
+	"difficulty_multipliers": [1],
+	
+	// Basic values
+	"speed_multiplier": 2.3,
+	"speed_increment": 0.02,
+	"rotation_speed": 0.0,
+	"rotation_increment": 0.0,
+	"delay_multiplier": 1.00,
+	"delay_increment": 0.00,
+	"fast_spin": 0,
+	"sides": 4,
+	"sides_min": 4,
+	"sides_max": 4,
+	"increment_time": 99999,
+	"rotation_speed_max": 0.0,
+	"pulse_min": 70,
+	"pulse_max": 70,
+	
+	//Events
+	"events":
+	[
+
+	]
+}

@@ -1,0 +1,62 @@
+{
+	// Level information
+	"id": "square",
+	"name": "Square",
+	"description": "Hard",
+	"author": "Jerry Ding",	
+	"menu_priority": 00,
+	"selectable": true,
+	
+	// Style
+	"style_id": "warm",
+	
+	// Music
+	"music_id": "courtesy",
+	
+	// Lua
+	"lua_file": "defaultLevels/square.lua",
+	
+	// Difficulty multipliers
+	"difficulty_multipliers": [1],
+	
+	// Basic values
+	"speed_multiplier": 1.35,
+	"speed_increment": 0.02,
+	"rotation_speed": 0.10,
+	"rotation_increment": 0.005,
+	"delay_multiplier": 1.00,
+	"delay_increment": 0.00,
+	"fast_spin": 0,
+	"sides": 4,
+	"sides_min": 4,
+	"sides_max": 4,
+	"increment_time": 99999,
+	"rotation_speed_max": 0.35,
+	"pulse_min": 70,
+	"pulse_max": 70,
+	"pulse_speed": 1.2,
+	"pulse_speed_r": 0.57,
+	"pulse_delay_max": 0.7,
+	"pulse_delay_max": 9.1,
+	
+	"beatpulse_max": 17,
+	"beatpulse_delay_max": 23.8,
+	
+	//Events
+	"events":
+	[		
+		{ "time": 10, 	"type": "play_sound", 	"id": "SuperSquare_line.ogg" },
+		{ "time": 20, 	"type": "play_sound", 	"id": "SuperSquare_triangle.ogg" },
+		{ "time": 30, 	"type": "play_sound", 	"id": "SuperSquare_square.ogg" },
+		{ "time": 45, 	"type": "play_sound", 	"id": "SuperSquare_pentagon.ogg" },
+		{ "time": 57.2, "type": "script_exec", 	"value_name": "increment.lua" },
+		{ "time": 60, 	"type": "script_exec", 	"value_name": "transition.lua" },
+		{ "time": 60, 	"type": "play_sound", 	"id": "SuperSquare_hexagon.ogg" },
+		{ "time": 60, 	"type": "style_set", 	"id": "cool" },
+		{ "time": 60, 	"type": "script_exec", 	"value_name": "defaultlevels/hypersquare.lua" },
+		{ "time": 120, 	"type": "style_set", 	"id": "burning" },
+		{ "time": 120, 	"type": "play_sound", 	"id": "SuperSquare_awesome.ogg" }
+
+
+	]
+}

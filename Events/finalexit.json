@@ -1,0 +1,11 @@
+{
+	// Event ID
+	"id": "finalexit",
+	
+	// Segments
+	"events":
+	[
+		{ "time": 0, 	"type": "music_set", 	"id": "noSound" , "seconds" : 0},
+		{ "time": 0, 	"type": "level_change", 	"id": "Packs/SuperSquare/hypersquarest" }
+	]
+}
